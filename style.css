@@ -4,18 +4,37 @@
     margin: 0;
 }
 .nav_top{
+    
     height: 50px;
     background-color: #131921;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    justify-content: space-between;
     color: white;
-    gap: 10px
-    ;
+    gap: 10px;
 }
 .amazon_logo{
     height: 30px;
 }
 .location_icon{
     height:20px;
+}
+.search_bar{
+    flex: 1;
+    display: flex;
+    background-color: grey;
+    max-width: 1000px;
+    height: 30px;
+}
+.dropdown_icon{
+    display: flex;
+    align-items: center;
+    background-color:grey ;
+    gap: 10px;
+    justify-content: space-around;
+    border-radius: 50pc;
+}
+.input{
+    width: 100%;
 }
