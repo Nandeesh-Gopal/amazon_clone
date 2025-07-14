@@ -6,6 +6,7 @@
 }
 p{
         font: amazon-ember, Arial, sans-serif;
+        flex-wrap: nowrap;
 
 }
 .nav_top{
@@ -52,6 +53,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .search_icon{
     border-radius: 0 5px 5px 0;
@@ -73,6 +75,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 5px;
+    flex-shrink: 0;
 }
 .cart{
     display: flex;
@@ -84,7 +87,16 @@ p{
 .nav_bottom{
     display: flex;
     background-color: #232f3e;
+    color: white;
+    gap: 20px;
+    height: inherit;
+    min-height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    size: 14px;
 }
 .select{
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
